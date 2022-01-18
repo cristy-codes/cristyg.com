@@ -1,0 +1,21 @@
+.c-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.c-home__avatar {
+  border-radius: 50%;
+  border: 1px solid gray;
+  box-shadow: 1px 3px 4px 7px #dbdbdb;
+  width: 250px;
+  height: 250px;
+}
+
+.c-home__header {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  color: black;
+}
